@@ -1,1 +1,1 @@
-# hello-react-native
+基于react-native-v0.26.1入门学习示例
