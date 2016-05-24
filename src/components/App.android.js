@@ -9,11 +9,25 @@ import ToastAndroidTest from './test/ToastAndroidTest'
 import Shop from './test/Shop'
 import Emoji from './test/Emoji/index'
 import Zhifu from './test/Zhifu'
+import {
+    AlphabetListView,
+    Button,
+    CompositeListView,
+    Icon,
+    Radio,
+    CountDown,
+    ToolBar,
+    TabNavigator,
+    Indicator,
+    Timeline,
+    Swiper,
+    ScrollTab
+} from 'ls-rncomponent'
 
 export default class App extends Component {
     render() {
         return (
-            <Zhifu />
+            <Button>登录</Button>
         );
     }
 }
