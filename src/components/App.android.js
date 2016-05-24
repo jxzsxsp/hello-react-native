@@ -9,6 +9,8 @@ import ToastAndroidTest from './test/ToastAndroidTest'
 import Shop from './test/Shop'
 import Emoji from './test/Emoji/index'
 import Zhifu from './test/Zhifu'
+import Game2048 from './test/2048/Game2048'
+import FlexBox from './test/FlexBox'
 import {
     AlphabetListView,
     Button,
@@ -27,7 +29,7 @@ import {
 export default class App extends Component {
     render() {
         return (
-            <Button>登录</Button>
+            <FlexBox />
         );
     }
 }
